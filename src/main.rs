@@ -11,7 +11,7 @@ struct Life {
 
 fn input_form() -> Result<Guess, String> {
     let mut input: String = String::new();
-    io::stdin().read_line(&mut input).expect("ssss");
+    io::stdin().read_line(&mut input).expect("You must provide input");
     println!("You typed '{}'", input.trim());
 
     let str_len: usize = input.trim().len();   
