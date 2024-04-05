@@ -4,7 +4,7 @@ use rand::Rng;
 struct Guess {
     letter: String,
 }
-
+asda
 struct Life {
     n_life: i32,
 }
